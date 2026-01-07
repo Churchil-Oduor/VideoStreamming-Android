@@ -60,4 +60,8 @@ dependencies {
     implementation("androidx.camera:camera-view:${camerax_version}")
     implementation("androidx.camera:camera-extensions:${camerax_version}")
 
+
+    //websocket dependency
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+
 }
