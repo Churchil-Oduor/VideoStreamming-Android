@@ -1,9 +1,8 @@
 from fastapi import FastAPI, WebSocket
 import cv2 
 import numpy as np
+
 app = FastAPI()
-
-
 
 @app.websocket("/ws/camera")
 async def camera_stream(websocket: WebSocket):
